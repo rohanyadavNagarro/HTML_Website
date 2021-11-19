@@ -1,0 +1,69 @@
+body {
+margin:  30px ;
+background-image: url("https://th.bing.com/th/id/OIP.mCUSosuiXgPUce3v1sFTiwHaE8?pid=ImgDet&rs=1");
+}
+
+.my-container {
+    border: 1px solid green;
+    padding-right: 20%;
+}
+
+.row_1 {
+    border : 3 px solid red;
+    background: rgb(12, 33, 34);
+}
+
+.row_2{
+    color : blueviolet;
+}
+
+.my_list li:nth-child(even){
+    background : blue
+}
+.my_list li:nth-child(odd){
+    background : yellow
+}
+
+@media (max-width:500px){
+    .my_list li:nth-child(even){
+        background : orange
+    }
+    .my_list li:nth-child(odd){
+        background : red
+    }
+}
+
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom :15px;
+}
+
+.my-form input{
+    padding :8px;
+    width:100%
+}
+.my-form label{
+    display:block;
+}
+
+.functions{
+    color :salmon;
+    padding : 4px;
+}
+
+.text1{
+    color:sienna;
+    font-style: italic;
+}
+
+.text2{
+    color :red;
+    font-style:oblique
+}
+
+.text3{
+    font-style: bold;
+    color : grey
+}
